@@ -1,0 +1,78 @@
+实验内容二
+测试用例1：
+显示菜单项
+1.Input record
+2.Sort and list records in reverse order by user name
+3.Search records by user name
+4.Calculate and list per capita income and expenses
+5.List records which have more expenses than per capita expenses
+6.List all records
+0．Exit
+    Please enter your choice:
+
+测试用例2:
+输入：选择菜单项1
+请输入用户数：5
+10001 zero 6000 1500
+10023 Aef 10000 3000
+20011 eric001 20000 10000
+20012 ffff 15000 0
+30004 abc 8000 14000
+
+测试用例3：
+输入：选择菜单项2
+输出：
+ID	UserName	Income	   Expenses1
+10001	zero		6000	   1500
+20012	ffff		15000	   0
+20011	eric001		20000	   10000
+30004	abc		8000	   14000
+10023	Aef		10000	   3000
+
+测试用例4:
+输入：选择菜单项3
+输出：Please input the user name:
+输入：eric001
+输出：
+ID	UserName	Income	   Expenses
+20011	eric001		20000	   10000
+
+测试用例5:
+输入：选择菜单项3
+输出：Please input the user name:
+输入：eric
+输出：
+Not Found
+
+
+测试用例6：
+输入：选择菜单项4
+输出：
+Per capita income:	11800
+Per capita expenses:	5700
+
+测试用例7：
+输入：选择菜单项5
+输出：
+ID	UserName	Income	   Expenses0
+30004	abc		8000	   14000
+20011	eric001		20000	   10000
+
+测试用例8：
+输入：选择菜单项6
+输出：（按ID升序）
+ID	UserName	Income	   Expenses
+10001	zero		6000	   1500
+10023	Aef		10000	   3000
+20011	eric001		20000	   10000
+20012	ffff		15000	   0
+30004	abc		8000	   14000
+
+
+测试用例9:
+输入：选择菜单项0
+输出：退出系统
+
+测试用例10：
+输入：选择菜单项11
+输出：请输入正确的选项
